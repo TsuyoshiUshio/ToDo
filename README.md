@@ -19,4 +19,16 @@ config.collectionId = "Items";
 module.exports = config;
 ```
 
+Then 
+
+```
+npm start
+``` 
+
+Hit the `http://localhost:3000` on your browser. Dont' forget to create CosmosDB(SQL DocumentDB) before you start this ToDo apps. 
+
 [Build a Node.js web application using Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/documentdb-nodejs-application)
+
+You might want to use TypeScript for this purpose, then you can use this.
+
+[Azure Cosmos DB (DocumentDB API) TypeScript interface](https://www.npmjs.com/package/documentdb-typescript)
